@@ -1,0 +1,10 @@
+string = input("enter the string : ")
+char= input("enter the char to remove ")
+string2 = " "
+length =len(string)
+for i in range(length):
+    if(string[i] == char):
+        string2= string[0:i]+string[i+1:length]
+        break
+print("original string: ",string)
+print("removed string : ",string2)
