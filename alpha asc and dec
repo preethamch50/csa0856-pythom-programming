@@ -1,0 +1,7 @@
+str=input("enter the string")
+string1=str.upper()
+string2=sorted(string1)
+sorted_str=" ".join(string2)
+rev_str=sorted_str[::-1]
+print(sorted_str)
+print(rev_str)
