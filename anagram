@@ -1,0 +1,8 @@
+str1=input("enter:")
+str2=input("enter:")
+u=str1.lower()
+v=str2.lower()
+if sorted(str1)==sorted(str2):
+    print("anagaram")
+else:
+    print("not an anagram")
