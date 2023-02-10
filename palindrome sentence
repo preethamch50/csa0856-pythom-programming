@@ -1,0 +1,20 @@
+n="A man, a plan, a canal: Panama"
+ab=n.lower()
+a,d,s,spl=0,0,0,0
+alpha=[]
+for i in range(len(ab)):
+    if(ab[i].isalpha()):
+        a+=1
+        alpha.append(ab[i])
+    elif(ab[i].isdigit()):
+        d+=1
+    elif(ab[i].isspace()):
+        s+=1
+        continue
+    else:
+        continue
+x=alpha[::-1]
+if(x==alpha):
+    print("palindrome")
+else:
+    print("not")
